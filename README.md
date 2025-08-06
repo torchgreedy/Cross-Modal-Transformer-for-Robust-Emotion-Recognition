@@ -1,11 +1,11 @@
-# 🧠 Cross-Modal Transformer for Emotion Recognition
+#  Cross-Modal Transformer for Emotion Recognition
 
 **Multimodal Architecture Using EEG and Eye-Tracking Features (SEED-V)**
 
 ![Python](https://img.shields.io/badge/python-3.10-blue) 
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-## 🚀 Overview
+##  Overview
 
 This project presents a **Transformer-based multimodal architecture** for classifying human emotions using EEG and eye-tracking signals from the [SEED-V dataset](https://bcmi.sjtu.edu.cn/home/seed/seed-v.html).  
 It incorporates **novel attention mechanisms**, **domain adaptation**, and **interpretable gating** to outperform previous benchmarks under rigorous evaluation.
@@ -61,7 +61,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-## 📊 Dataset
+##  Dataset
 
 This project uses the SEED-V dataset containing EEG and eye-tracking data for emotion recognition. The dataset includes:
 
@@ -71,7 +71,7 @@ This project uses the SEED-V dataset containing EEG and eye-tracking data for em
 
 You'll need to request access to the dataset from the [BCMI lab](https://bcmi.sjtu.edu.cn/home/seed/seed-v.html).
 
-## 🚀 Usage
+##  Usage
 
 ### Training
 
