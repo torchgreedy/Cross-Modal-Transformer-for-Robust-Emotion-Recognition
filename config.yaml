@@ -1,0 +1,27 @@
+# Model configuration
+model:
+  eeg_features: 310          # 62 channels * 5 frequency bands
+  eye_features: 33           # Standard SEED-V eye tracking features
+  d_model: 512               # Model dimension
+  n_heads: 8                 # Number of attention heads
+  n_encoder_layers: 4        # Number of transformer encoder layers
+  n_classes: 5               # 5 emotions in SEED-V (happy, sad, fear, disgust, neutral)
+  n_subjects: 16             # 16 subjects in SEED-V
+  dropout: 0.2               # Dropout rate
+
+# Training configuration
+training:
+  batch_size: 32             # Batch size
+  epochs: 50                 # Number of epochs
+  learning_rate: 0.0001      # Learning rate
+  weight_decay: 0.0001       # Weight decay for regularization
+  grl_alpha: 0.1             # Gradient reversal layer scaling factor
+  domain_weight: 0.1         # Weight for domain adaptation loss
+  val_split: 0.1             # Validation split ratio
+  seed: 42                   # Random seed for reproducibility
+
+# Data configuration
+data:
+  data_dir: "SEED-V"         # Data directory
+  max_seq_length: 74         # Maximum sequence length
+  n_trials: 45               # Number of trials per subject
