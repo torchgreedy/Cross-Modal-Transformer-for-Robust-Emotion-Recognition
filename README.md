@@ -44,9 +44,20 @@ For detailed mathematical formulations and implementation specifics, see our [te
 │   │   ├── model_fold_2.pth
 │   │   ├── ...
 │   │   └── model_fold_16.pth
+│   ├── docs/                           # Technical documentation
+│   │   ├── technical_overview.md       # Overall architecture overview
+│   │   └── modules/                    # Detailed module descriptions
+│   │       ├── classification_head.md  # Classification component details
+│   │       ├── cross_modal_attention.md# Bidirectional attention mechanism
+│   │       ├── domain_adaptation.md    # Subject-invariant learning approach
+│   │       ├── feature_importance.md   # Adaptive modality weighting
+│   │       ├── global_pooling.md       # Feature fusion methods
+│   │       ├── linear_projection.md    # Input dimension alignment
+│   │       ├── positional_encoding.md  # Temporal information encoding
+│   │       └── self_attention.md       # Intra-modal attention mechanism
 │   ├── SEED-V/
-│   │   ├── EEG_DE_features/            # EEG differential entropy features data, just refernce only
-│   │   └── Eye_movement_features/      # Eye movement features data, just refernce only
+│   │   ├── EEG_DE_features/            # EEG differential entropy features data, just reference only
+│   │   └── Eye_movement_features/      # Eye movement features data, just reference only
 │   ├── interpretability_results/
 │   │   ├── attention_analysis/
 │   │   │   ├── attention_heatmaps.png
