@@ -3,7 +3,7 @@
 **Multimodal Architecture Using EEG and Eye-Tracking Features (SEED-V)**
 ## Model Architecture
 
-![Cross-Modal Transformer Architecture](https://github.com/user-attachments/assets/5b64e751-bfcf-4a40-b83d-d16ff8622cd6)
+![Cross-Modal Transformer Architecture](https://github.com/user-attachments/assets/fd345259-9921-49fa-aa3f-5948e64fab27)
 
 *Model architecture diagram by torchgreedy (Last updated: 2025-08-07)*
 
