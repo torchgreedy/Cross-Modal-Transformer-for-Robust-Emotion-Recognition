@@ -17,12 +17,21 @@ It incorporates **novel attention mechanisms**, **domain adaptation**, and **int
 
 ### Core Features
 
-- **Modality-Specific Linear Projections**
-- **Bidirectional Cross-Modal Attention**
-- **Modality Importance Weighting via Gating Units**
-- **Domain Adaptation with Gradient Reversal Layer (GRL)**
-- **Subject-Specific Normalization**
-- **LOSO Cross-Validation (Leave-One-Subject-Out)**
+1. **Positional Encoding**: Sinusoidal encodings enable the model to understand temporal relationships in sequential data.
+
+2. **Feature Importance Module (FIM)**: Learns modality-specific importance weights to adaptively emphasize stronger signals.
+
+3. **Cross-Modal Attention**: Bidirectional attention mechanism allowing EEG features to attend to eye movement features and vice versa.
+
+4. **Self-Attention Transformer Encoder**: Processes each modality to capture intra-modal temporal dynamics.
+
+5. **Global Pooling and Fusion**: Integrates information from both modalities into a unified representation.
+
+6. **Domain Adaptation Layer**: Employs gradient reversal to learn subject-invariant representations, improving generalization.
+
+7. **Classification Head**: Multi-layer perceptron with GELU activations for final emotion classification.
+
+For detailed mathematical formulations and implementation specifics, see our [technical documentation](docs/technical_overview.md).
 
 > **Achieved Accuracy: 75.42% on SEED-V (LOSO evaluation)**
 
