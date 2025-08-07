@@ -29,22 +29,39 @@ It incorporates **novel attention mechanisms**, **domain adaptation**, and **int
 ## 📁 Project Structure
 
 ```
-├── src/
-│   ├── model.py              # Main multimodal Transformer model
-│   ├── modules/
-│   │   ├── projections.py    # Modality projection layers
-│   │   ├── attention.py      # Cross-modal and self-attention modules
-│   │   ├── grl.py            # Domain adaptation (Gradient Reversal Layer)
-│   │   ├── fusion.py         # Gating and final fusion logic
-│   │   └── __init__.py       # Module exports
-│   ├── dataset.py            # SEED-V preprocessing & Dataloader
-│   ├── utils.py              # Masking, normalization, evaluation helpers
-│   └── __init__.py           # Package exports
-├── train.py                  # Training script with LOSO evaluation
-├── evaluate.py               # Standalone evaluation
-├── config.yaml               # Model and training hyperparameters
-├── requirements.txt          # Project dependencies
-└── README.md                 # This file
+├── Cross-Modal-Transformer-for-Robust-Emotion-Recognition/
+│   ├── SEED-V/
+│   │   ├── EEG_DE_features/            # EEG differential entropy features
+│   │   └── Eye_movement_features/      # Eye movement features
+│   ├── interpretability_results/
+│   │   ├── attention_analysis/
+│   │   │   ├── attention_heatmaps.png
+│   │   │   └── temporal_attention_patterns.png
+│   │   ├── confidence_analysis/
+│   │   │   └── confidence_analysis.png
+│   │   ├── emotion_patterns/
+│   │   │   └── emotion_specific_attention.png
+│   │   ├── subject_analysis/
+│   │   │   └── subject_variability_analysis.png
+│   │   └── confusion_matrix.png
+│   ├── src/
+│   │   ├── model.py                    # Main multimodal Transformer model
+│   │   ├── modules/
+│   │   │   ├── projections.py          # Modality projection layers
+│   │   │   ├── attention.py            # Cross-modal and self-attention modules
+│   │   │   ├── grl.py                  # Domain adaptation (Gradient Reversal Layer)
+│   │   │   ├── fusion.py               # Gating and final fusion logic
+│   │   │   └── __init__.py             # Module exports
+│   │   ├── dataset.py                  # SEED-V preprocessing & Dataloader
+│   │   ├── utils.py                    # Masking, normalization, evaluation helpers
+│   │   └── __init__.py                 # Package exports
+│   ├── train.py                        # Training script with LOSO evaluation
+│   ├── evaluate.py                     # Standalone evaluation
+│   ├── config.yaml                     # Model and training hyperparameters
+│   ├── requirements.txt                # Project dependencies
+│   ├── LICENSE                         # Project license
+│   └── README.md                       # Project documentation
+
 ```
 
 ## 🛠️ Installation
