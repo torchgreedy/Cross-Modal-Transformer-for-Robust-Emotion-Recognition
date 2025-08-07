@@ -30,9 +30,14 @@ It incorporates **novel attention mechanisms**, **domain adaptation**, and **int
 
 ```
 ├── Cross-Modal-Transformer-for-Robust-Emotion-Recognition/
+│   ├── checkpoints/                    # 16 model files
+│   │   ├── model_fold_1.pth            
+│   │   ├── model_fold_2.pth
+│   │   ├── ...
+│   │   └── model_fold_16.pth
 │   ├── SEED-V/
-│   │   ├── EEG_DE_features/            # EEG differential entropy features
-│   │   └── Eye_movement_features/      # Eye movement features
+│   │   ├── EEG_DE_features/            # EEG differential entropy features data, just refernce only
+│   │   └── Eye_movement_features/      # Eye movement features data, just refernce only
 │   ├── interpretability_results/
 │   │   ├── attention_analysis/
 │   │   │   ├── attention_heatmaps.png
@@ -61,7 +66,6 @@ It incorporates **novel attention mechanisms**, **domain adaptation**, and **int
 │   ├── requirements.txt                # Project dependencies
 │   ├── LICENSE                         # Project license
 │   └── README.md                       # Project documentation
-
 ```
 
 ## 🛠️ Installation
