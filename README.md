@@ -115,19 +115,6 @@ To evaluate a trained model:
 python evaluate.py --model_path checkpoints/model_fold_1.pth --subject_id 1
 ```
 
-## 📝 Citation
-
-If you use this code in your research, please cite our work:
-
-```bibtex
-@article{crossmodal2025,
-  title={Cross-Modal Transformer for Robust Emotion Recognition},
-  author={Your Name},
-  journal={arXiv preprint arXiv:2025.xxxxx},
-  year={2025}
-}
-```
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
