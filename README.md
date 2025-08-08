@@ -35,6 +35,33 @@ It incorporates **novel attention mechanisms**, **domain adaptation**, and **int
 For detailed mathematical formulations and implementation specifics, see our [technical documentation](docs/technical_overview.md).
 
 > **Achieved Accuracy: 75.42% on SEED-V (LOSO evaluation)**
+## Model Performance
+
+Our Cross-Modal Transformer achieves **75.42% ± 11.15%** mean accuracy on the SEED-V dataset using rigorous Leave-One-Subject-Out (LOSO) cross-validation.
+
+### Per-Subject Performance
+
+| Subject ID | Accuracy |
+|------------|----------|
+| Subject 1  | 88.89%   |
+| Subject 2  | 84.44%   |
+| Subject 3  | 82.22%   |
+| Subject 4  | 60.00%   |
+| Subject 5  | 75.56%   |
+| Subject 6  | 84.44%   |
+| Subject 7  | 64.44%   |
+| Subject 8  | 86.67%   |
+| Subject 9  | 55.56%   |
+| Subject 10 | 64.44%   |
+| Subject 11 | 75.56%   |
+| Subject 12 | 75.56%   |
+| Subject 13 | 80.00%   |
+| Subject 14 | 57.78%   |
+| Subject 15 | 80.00%   |
+| Subject 16 | 91.11%   |
+| **Average**| **75.42%**|
+
+The variance in performance across subjects (standard deviation: 11.15%) highlights the challenge of cross-subject generalization in physiological emotion recognition, which our domain adaptation approach helps address.
 
 ## 📁 Project Structure
 
