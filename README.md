@@ -196,6 +196,6 @@ To evaluate a trained model:
 python evaluate.py --model_path checkpoints/model_fold_1.pth --subject_id 1
 ```
 
-## 📄 License
+## License
 
 This project is licensed under the AGPL-3.0 license - see the LICENSE file for details.
