@@ -9,7 +9,7 @@
 
 ![Python](https://img.shields.io/badge/python-3.10-blue) 
 ![PyTorch](https://img.shields.io/badge/PyTorch-1.10+-ee4c2c?logo=pytorch&logoColor=white)
-![License](https://img.shields.io/badge/license-MIT-green)
+![License](https://img.shields.io/badge/license-AGPL-green)
 
 ##  Overview
 
