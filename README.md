@@ -1,6 +1,6 @@
 #  Cross-Modal Transformer for Emotion Recognition
 
-**Multimodal Architecture Using EEG and Eye-Tracking Features (SEED-V)**
+**Multimodal Architecture Using EEG(electroencephalogram) and Eye-Tracking Features (SEED-V)**
 ## Model Architecture
 
 ![Cross-Modal Transformer Architecture](https://github.com/user-attachments/assets/fd345259-9921-49fa-aa3f-5948e64fab27)
