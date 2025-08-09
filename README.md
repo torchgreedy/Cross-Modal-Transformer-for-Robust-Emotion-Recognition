@@ -110,8 +110,25 @@ Our model significantly outperforms existing state-of-the-art approaches on the 
 │   │   │   └── confidence_analysis.png
 │   │   ├── emotion_patterns/
 │   │   │   └── emotion_specific_attention.png
+│   │   ├── frequency_bands_analysis/   # New folder for frequency band analyses
+│   │   │   ├── subject_versus_time/    # Subject-specific frequency band analysis
+│   │   │   │   ├── subject_01_time_band_heatmap.png
+│   │   │   │   ├── subject_02_time_band_heatmap.png
+│   │   │   │   ├── ...
+│   │   │   │   └── subject_16_time_band_heatmap.png
+│   │   │   └── emotion_versus_time/    # Emotion-specific frequency band analysis
+│   │   │       ├── emotion_0_Disgust_time_band_heatmap.png
+│   │   │       ├── emotion_1_Fear_time_band_heatmap.png
+│   │   │       ├── emotion_2_Sad_time_band_heatmap.png
+│   │   │       ├── emotion_3_Neutral_time_band_heatmap.png
+│   │   │       ├── emotion_4_Happy_time_band_heatmap.png
+│   │   │       └── overall_time_band_heatmap.png
 │   │   ├── subject_analysis/
 │   │   │   └── subject_variability_analysis.png
+│   │   ├── T-SNE/                      # New folder for T-SNE visualizations
+│   │   │   ├── tsne_by_subject.png     # T-SNE visualization colored by subject
+│   │   │   ├── tsne_by_emotion.png     # T-SNE visualization colored by emotion
+│   │   │   └── tsne_by_correctness.png # T-SNE visualization colored by prediction correctness
 │   │   └── confusion_matrix.png
 │   ├── src/
 │   │   ├── model.py                    # Main multimodal Transformer model
