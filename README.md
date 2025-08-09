@@ -5,7 +5,7 @@
 
 ![Cross-Modal Transformer Architecture](https://github.com/user-attachments/assets/b143a93a-2e7b-465b-9d42-442c828b1cc0) 
 
-*Model architecture diagram by torchgreedy (Last updated: 2025-08-07)*
+*Model architecture diagram by torchgreedy (Last updated: 2025-08-09)*
 
 ![Python](https://img.shields.io/badge/python-3.10-blue) 
 ![PyTorch](https://img.shields.io/badge/PyTorch-1.10+-ee4c2c?logo=pytorch&logoColor=white)
