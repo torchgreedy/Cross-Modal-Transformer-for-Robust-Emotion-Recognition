@@ -76,7 +76,7 @@ Our model significantly outperforms existing state-of-the-art approaches on the 
 **References:**
 1. Mina et al., "[Multimodal Deep Learning for Subject-Independent Emotion Recognition Using EEG and Eye Movement Data](https://ieeexplore.ieee.org/document/10289007)," IEEE, 2023.
 2. Zheng et al., "[Dual filtration subdomain adaptation network for cross-subject emotion recognition](https://www.sciencedirect.com/science/article/pii/S0925231225009269)," Neurocomputing, 2025.
-3. Tang et al., "[Hierarchical multimodal-fusion of physiological signals for emotion recognition with scenario adaption and contrastive alignment](https://www.sciencedirect.com/science/article/pii/S1566253523004451#tbl0005), , "Information Fusion, 2024.
+3. Tang et al., "[Hierarchical multimodal-fusion of physiological signals for emotion recognition with scenario adaption and contrastive alignment](https://www.sciencedirect.com/science/article/pii/S1566253523004451#tbl0005), "Information Fusion, 2024.
 
 
 ## 📁 Project Structure
