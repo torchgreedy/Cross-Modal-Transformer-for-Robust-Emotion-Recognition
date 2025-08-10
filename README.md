@@ -79,7 +79,7 @@ Our model significantly outperforms existing state-of-the-art approaches on the 
 3. Tang et al., "[Hierarchical multimodal-fusion of physiological signals for emotion recognition with scenario adaption and contrastive alignment](https://www.sciencedirect.com/science/article/pii/S1566253523004451#tbl0005), "Information Fusion, 2024.
 
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── Cross-Modal-Transformer-for-Robust-Emotion-Recognition/
