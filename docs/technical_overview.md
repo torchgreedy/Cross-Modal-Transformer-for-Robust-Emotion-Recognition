@@ -35,3 +35,5 @@ Our cross-modal transformer consists of the following key components:
 8. [Classification Head](modules/classification_head.md): Predicts emotion categories
 
 Each component is described in detail in its respective documentation page.
+
+See the Whole PDF version: [Technical_Architecture.pdf](./Technical_Architecture.pdf)
