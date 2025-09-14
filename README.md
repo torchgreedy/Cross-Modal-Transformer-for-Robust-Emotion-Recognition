@@ -149,7 +149,7 @@ Our model significantly outperforms existing state-of-the-art approaches on the 
 │   └── README.md                       # Project documentation
 ```
 
-## 🛠️ Installation
+## Installation
 
 1. Clone the repository:
 ```bash
