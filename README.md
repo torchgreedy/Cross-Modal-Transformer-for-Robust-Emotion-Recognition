@@ -1,4 +1,4 @@
-#  Cross-Modal Transformer for Emotion Recognition
+#  Cross-Modal Transformer for Emotion Recognition (CALMER's earliest version)
 
 **Multimodal Architecture Using EEG(electroencephalogram) and Eye-Tracking Features (SEED-V)**
 ## Model Architecture
